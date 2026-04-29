@@ -193,7 +193,7 @@ Ce type de système est utilisé par :
 
 ⚠️ Limites
 
-*  
+* Détection basée sur des règles simples appliquées à des scénarios réalistes
 * Pas de traitement en temps réel
 * Pas d’interface graphique
 
