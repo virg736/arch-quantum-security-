@@ -92,6 +92,12 @@ Le moteur lit le fichier ligne par ligne :
 ⚙️ Fonctionnement interne   
  → with open(sys.argv[1]) as f:   
 
+### 🔷 Filtrage
+
+Seules les lignes contenant `"ATTACK|"` sont analysées :
+
+
+
  Filtrage  
 
 Seules les lignes contenant "ATTACK|" sont analysées :   
