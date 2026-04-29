@@ -218,23 +218,23 @@ All outputs have been sanitized.
 
 ⸻
 
-Lexique des outils et concepts utilisés
+## Lexique des outils et concepts utilisés
 
-🐍 Python
+### 🐍 Python
 
-* python : exécution du moteur de détection
-* sys.argv : récupération du fichier en argument
-* json.dumps() : conversion en JSON
-* datetime.now(UTC) : génération d’un timestamp
-* open() : lecture/écriture de fichier
-* split() : parsing des logs
-* if : règles de détection
+- python : exécution du moteur de détection
+- sys.argv : récupération du fichier en argument
+- json.dumps() : conversion en format JSON
+- datetime.now(UTC) : génération d’un timestamp
+- open() : lecture et écriture de fichiers
+- split() : parsing des logs
+- if : règles de détection
 
-⸻
+---
 
-🟢 Bash / Linux
+### 🟢 Bash / Linux
 
-* Scripts .sh : simulation d’attaques
-* echo : écriture dans les logs
-* >> : append dans un fichier
-* chmod +x : rendre un script exécutable
+- Scripts .sh : simulation d’attaques
+- echo : écriture dans les logs
+- >> : ajout (append) dans un fichier
+- chmod +x : rendre un script exécutable
