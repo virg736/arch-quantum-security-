@@ -258,6 +258,13 @@ Le projet est conçu avec une architecture modulaire lui permettant d’évoluer
 
 ⸻
 
+## 🔄 Roadmap
+
+Intégration de **eBPF** pour la collecte d’événements en temps réel au niveau du kernel, remplaçant les logs simulés et permettant une détection d’intrusion en runtime.
+
+---
+
+
 ⚠️ Disclaimer
 
 Ce projet est réalisé à des fins pédagogiques uniquement.
