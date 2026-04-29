@@ -51,12 +51,6 @@ L’objectif est de simuler une activité malveillante, de générer des logs, p
 
 ---
 
-## Pipeline de détection
-
-### 🔺 1. Simulation d’attaque
-
-Un script génère un événement simulant une activité malveillante :
-
 ## ⚙️ Architecture du projet
 
 Le projet repose sur un pipeline simple et efficace :
@@ -65,12 +59,11 @@ Attack Script → Log File → Detection Engine → Alert
 
 ---
 
+## Pipeline de détection
 
-## 1. Simulation d’attaque  
+### 🔺 1. Simulation d’attaque
 
-Un script génère un événement simulant une activité malveillante :  
-
-
+Un script génère un événement simulant une activité malveillante :
  → ATTACK|bash|940|0|/etc/passwd  
 
 📄 2. Stockage des logs      
