@@ -1,16 +1,6 @@
-<p align="center">
-
-<img src="https://img.icons8.com/fluency/96/shield.png" width="60"/>
-
-# arch-quantum-security
-
-### Runtime Intrusion Detection on Arch Linux
-
-</p>
-
 
 <p align="center">
-  <h1 align="center">🛡️ arch-quantum-security</h1>
+  <h1 align="center"> arch-quantum-security</h1>
 </p>
 
 <p align="center">
