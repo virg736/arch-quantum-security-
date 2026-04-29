@@ -89,7 +89,7 @@ Le moteur lit le fichier ligne par ligne :
 
  → with open(sys.argv[1]) as f:   
 
-🎯 Filtrage  
+ Filtrage  
 
 Seules les lignes contenant "ATTACK|" sont analysées :   
 
@@ -108,7 +108,7 @@ Chaque ligne est transformée en objet structuré :
   "timestamp": "..."  
 }  
 
-🚨 Détection   
+ Détection   
 
 Le moteur applique des règles simples mais efficaces :   
 
@@ -120,7 +120,7 @@ Exemple de sortie :
  → [ALERT] Root activity detected    
  → [CRITICAL] Sensitive file access   
 
-💾 Sauvegarde   
+Sauvegarde   
 
 Les événements sont enregistrés au format JSON dans :   
 
@@ -140,7 +140,7 @@ Cette approche permet une détection plus intelligente et contextuelle.
 
 ⸻
 
-🧠 Concepts abordés
+  → Concepts abordés
 
 * Analyse de logs
 * Détection d’intrusion (IDS)
@@ -161,7 +161,7 @@ Ce type de système est utilisé par :
 
 ⸻
 
-🚀 Points forts
+ → Points forts
 
 * Pipeline complet (attaque → détection)
 * Code clair et structuré
@@ -179,7 +179,7 @@ Ce type de système est utilisé par :
 
 ⸻
 
-🎤 Conclusion
+🔵 Conclusion
 
 Ce projet démontre la mise en place d’un système de détection d’intrusion simplifié capable d’analyser des logs, d’identifier des comportements suspects et de générer des alertes.
 
@@ -194,7 +194,7 @@ All outputs have been sanitized.
 
 ⸻
 
-📚 Lexique des outils et concepts utilisés
+Lexique des outils et concepts utilisés
 
 🐍 Python
 
@@ -208,7 +208,7 @@ All outputs have been sanitized.
 
 ⸻
 
-🖥️ Bash / Linux
+🟢 Bash / Linux
 
 * Scripts .sh : simulation d’attaques
 * echo : écriture dans les logs
