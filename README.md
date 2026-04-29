@@ -175,9 +175,9 @@ Cette approche permet une détection plus intelligente et contextuelle.
 Ce type de système est utilisé par :
 
 * Analystes SOC (Security Operations Center)
-* Administrateurs systèmes
+* Administrateurs système
 * Équipes cybersécurité
-* Entreprises pour la surveillance des systèmes
+* Entreprises pour la surveillance de leurs systèmes
 
 ⸻
 
@@ -185,9 +185,9 @@ Ce type de système est utilisé par :
 
 * Pipeline complet (attaque → détection)
 * Code clair et structuré
-* Détection basée sur des règles
+* Détection basée sur des règles simples
 * Format JSON exploitable
-* Simulation réaliste
+* Simulation d'attaques réalistes
 
 ⸻
 
