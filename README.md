@@ -1,9 +1,9 @@
 # arch-quantum-security-
 arch-quantum-security - Runtime Intrusion Detection on Arch Linux
 
-# 🛡️ arch-quantum-security
+# arch-quantum-security
 
-## 🧠 Description du projet
+##  Description du projet
 
 Ce projet implémente un mini moteur de détection d’intrusion (IDS) capable d’analyser des logs système afin d’identifier des comportements suspects.
 
@@ -11,7 +11,7 @@ L’objectif est de simuler une activité malveillante, de générer des logs, p
 
 ---
 
-## 🎯 Objectifs
+##  Objectifs
 
 - Simuler une attaque système  
 - Générer des logs exploitables  
@@ -29,6 +29,6 @@ Attack Script → Log File → Detection Engine → Alert
 
 ---
 
-### 1. 🧨 Simulation d’attaque
+### 1.  Simulation d’attaque
 
 Un script génère un événement simulant une activité malveillante :
