@@ -114,13 +114,16 @@ Le moteur applique des règles simples mais efficaces :
 Exemple de sortie :     
 
  → [ALERT] Root activity detected       
- → [CRITICAL] Sensitive file access      
+ → [CRITICAL] Sensitive file access
+
+ ---
 
 🟩 Sauvegarde      
 
 Les événements sont enregistrés au format JSON dans :      
+ → logs/events.log 
 
- → logs/events.log   
+ ---
 
 🔵 Pourquoi “Quantum Security” ?      
 
