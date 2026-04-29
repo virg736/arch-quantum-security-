@@ -17,6 +17,20 @@ L’objectif est de simuler une activité malveillante, de générer des logs, p
 
 ---
 
+## Structure du projet
+
+| Dossier / Fichier | Description |
+|------------------|------------|
+| `ebpf/`          | Détection au niveau kernel |
+| `detection/`     | Moteur d’analyse |
+| `attacks/`       | Simulation d’attaques |
+| `tests/`         | Validation du pipeline |
+| `logs/`          | Stockage des événements |
+| `run.sh`         | Exécution globale |
+| `README.md`      | Documentation |
+
+
+
 - **ebpf/**  
   Détection au niveau kernel  
 
