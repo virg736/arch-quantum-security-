@@ -104,7 +104,7 @@ Chaque ligne est transformée en objet structuré :
 
 ---
 
- Détection      
+ 🟩 Détection      
 
 Le moteur applique des règles simples mais efficaces :     
 
@@ -116,7 +116,7 @@ Exemple de sortie :
  → [ALERT] Root activity detected       
  → [CRITICAL] Sensitive file access      
 
-Sauvegarde      
+🟩 Sauvegarde      
 
 Les événements sont enregistrés au format JSON dans :      
 
