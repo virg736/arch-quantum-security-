@@ -16,6 +16,39 @@ L’objectif est de simuler une activité malveillante, de générer des logs, p
 
 ---
 
+- **ebpf/**  
+  Détection au niveau kernel  
+
+- **detection/**  
+  Moteur d’analyse  
+
+- **attacks/**  
+  Simulation d’attaques  
+
+- **tests/**  
+  Validation du pipeline  
+
+- **logs/**  
+  Stockage des événements  
+
+- **run.sh**  
+  Exécution globale  
+
+- **README.md**  
+  Documentation  
+
+---
+
+## Objectifs
+
+- Simuler une attaque système
+- Générer des logs exploitables
+- Analyser automatiquement les événements
+- Détecter des comportements suspects
+- Structurer les résultats en format JSON
+
+
+
 ## Structure du projet
 
 arch-quantum-security/
