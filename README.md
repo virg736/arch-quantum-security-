@@ -82,6 +82,14 @@ Le script principal analyse les logs :
 Ce fichier constitue la source principale pour l’analyse.   
  → python detection/engine.py logs/events.log   
 
+
+---
+
+## Fonctionnement interne
+
+### 🔷 Lecture des logs
+
+Le moteur lit le fichier ligne par ligne :
 ⚙️ Fonctionnement interne   
 
 📥 Lecture des logs   
