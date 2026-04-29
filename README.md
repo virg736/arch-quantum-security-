@@ -1,4 +1,8 @@
-
+<p align="center">
+  <a href="https://github.com/virg736/arch-quantum-security-/actions">
+    <img src="https://github.com/virg736/arch-quantum-security-/actions/workflows/ci.yml/badge.svg" />
+  </a>
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/OS-Linux-black?logo=linux">
   <img src="https://img.shields.io/badge/Arch-Arch_Linux-blue?logo=arch-linux">
