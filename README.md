@@ -235,12 +235,6 @@ Il constitue une base concrète et réaliste pour comprendre les outils et méth
 Le projet est conçu avec une architecture modulaire lui permettant d’évoluer vers un IDS (Intrusion Detection System), un système de détection d’intrusion chargé d’analyser les événements système afin d’identifier des activités suspectes ou malveillantes.
 
 
-🔵 Conclusion
-
-Ce projet démontre la mise en place d’un système de détection d’intrusion simplifié capable d’analyser des logs, d’identifier des comportements suspects et de générer des alertes.
-
-Il constitue une base concrète et réaliste des outils et méthodes utilisés en cybersécurité.
-
 ⸻
 
 ⚠️ Disclaimer
