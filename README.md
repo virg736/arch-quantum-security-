@@ -22,6 +22,27 @@
 </p>
 
 
+# Arch Linux Runtime Security (eBPF IDS)
+
+<p align="center">
+  <a href="https://github.com/virg736/arch-quantum-security-/actions">
+    <img src="https://github.com/virg736/arch-quantum-security-/actions/workflows/ci.yml/badge.svg" />
+  </a>
+</p>
+
+![cover](arch-quantum-security.jpg)
+
+## Features
+- Runtime log monitoring
+- Suspicious activity detection
+- Simple IDS simulation
+- GitHub Actions CI integration
+
+## Description
+This project implements a simple intrusion detection system (IDS) on Arch Linux using log analysis.
+
+
+
 ## 🔵 Description du projet
 
 Ce projet implémente un mini moteur de détection d’intrusion (IDS) capable d’analyser des logs système afin d’identifier des comportements suspects.
