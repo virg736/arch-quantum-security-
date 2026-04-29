@@ -3,11 +3,6 @@
   <h3>Runtime Intrusion Detection on Arch Linux</h3>
 </p>
 
-# arch-quantum-security-
-arch-quantum-security - Runtime Intrusion Detection on Arch Linux
-
-# arch-quantum-security
-
 ##  Description du projet
 
 Ce projet implémente un mini moteur de détection d’intrusion (IDS) capable d’analyser des logs système afin d’identifier des comportements suspects.
