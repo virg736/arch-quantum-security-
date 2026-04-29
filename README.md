@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="arch-quantum-security.jpg" alt="Arch Linux Runtime Security" style="max-width:100%; height:auto;">
+</p>
+
 
 <p align="center">
   <h1 align="center"> arch-quantum-security</h1>
