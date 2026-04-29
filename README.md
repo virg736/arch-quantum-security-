@@ -8,7 +8,7 @@
 </p>
 
 
-##  Description du projet
+## 🔵 Description du projet
 
 Ce projet implémente un mini moteur de détection d’intrusion (IDS) capable d’analyser des logs système afin d’identifier des comportements suspects.
 
@@ -39,7 +39,7 @@ L’objectif est de simuler une activité malveillante, de générer des logs, p
 
 ---
 
-## Objectifs
+## 🟢 Objectifs
 
 - Simuler une attaque système
 - Générer des logs exploitables
@@ -125,7 +125,7 @@ Les événements sont enregistrés au format JSON dans :
 
 logs/events.log
 
-🧠 Pourquoi “Quantum Security” ?
+🔵 Pourquoi “Quantum Security” ?
 
 Dans ce projet, le terme “Quantum” ne fait pas référence à l’informatique quantique.
 
