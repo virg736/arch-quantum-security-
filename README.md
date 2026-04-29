@@ -34,7 +34,7 @@ Un attaquant ou un programme malveillant peut tenter d’accéder à ces fichier
 
 Sans système de détection, ces activités peuvent passer inaperçues dans les logs système.
 
-### Solution apportée par ce projet
+### Solution apportée par le projet
 
 Ce projet simule ce type de comportement et met en place un moteur de détection capable d’identifier :
 - les accès avec privilèges élevés (UID 0)
