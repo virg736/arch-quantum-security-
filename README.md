@@ -49,3 +49,43 @@ Les événements sont enregistrés dans :
 logs/events.log
 
 Ce fichier constitue la source principale pour l’analyse.
+
+🔍 3. Moteur de détection
+
+Le script principal analyse les logs :
+
+python detection/engine.py logs/events.log
+
+⚙️ Fonctionnement interne
+
+📥 Lecture des logs
+
+Le moteur lit le fichier ligne par ligne :
+
+with open(sys.argv[1]) as f:
+
+🎯 Filtrage
+
+Seules les lignes contenant "ATTACK|" sont analysées :
+
+if "ATTACK|" in line:
+
+🧩 Parsing
+
+Chaque ligne est transformée en objet structuré :
+
+{
+  "type": "ATTACK",
+  "process": "bash",
+  "pid": 940,
+  "uid": 0,
+  "file": "/etc/passwd",
+  "timestamp": "..."
+}
+
+🚨 Détection
+
+Le moteur applique des règles simples mais efficaces :
+
+* 🔴 UID = 0 → activité avec privilèges root
+* 🔴 Accès à /etc/passwd → fichier sensible
