@@ -15,12 +15,6 @@
 - Simple IDS simulation
 - GitHub Actions CI integration
 
-## Usage
-
-Run the script:
-
-python detector.py
-
 ---
 
 ## 🔵 Description du projet
