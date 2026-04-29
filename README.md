@@ -89,6 +89,21 @@ Le moteur lit le fichier ligne par ligne :
 Seules les lignes contenant `"ATTACK|"` sont analysées :
  → if "ATTACK|" in line:   
 
+
+### 🔷 Parsing
+
+Chaque ligne est transformée en objet structuré :
+
+```json
+{
+  "type": "ATTACK",
+  "process": "bash",
+  "pid": 940,
+  "uid": 0,
+  "file": "/etc/passwd",
+  "timestamp": "..."
+}
+
 🧩 Parsing  
 
 Chaque ligne est transformée en objet structuré :   
