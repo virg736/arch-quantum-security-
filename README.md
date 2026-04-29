@@ -123,6 +123,10 @@ Chaque ligne est transformée en objet structuré :
 </p>
 ```
 
+<p align="center">
+  <img src="parsing_output.png" width="900"/>
+</p>
+```
 
 
 ---
