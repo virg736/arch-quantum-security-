@@ -59,6 +59,17 @@ Préparation de l’environnement Arch Linux et vérification de la structure du
 </p>
 
 
+## ⚙️ Mise en place de l’environnement
+
+Préparation de l’environnement Arch Linux et vérification de la structure du projet :
+
+<p align="center">
+  <img src="environment_setup.png" alt="Environment setup Arch Linux" width="800"/>
+</p>
+
+> Installation des paquets, mise à jour du système et vérification des répertoires du projet.
+
+
 ## Pipeline de détection   
 
 ### 🔺 1. Simulation d’attaque   
