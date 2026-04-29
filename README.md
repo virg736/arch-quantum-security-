@@ -128,12 +128,11 @@ Chaque ligne est transformée en objet structuré :
 Le moteur applique des règles simples mais efficaces :     
 
 * 🔴 UID = 0 → activité avec privilèges root      
-* 🔴 Accès à /etc/passwd → fichier sensible      
+* 🔴 Accès au fichier sensible  /etc/passwd      
 
 ---
 
-🟩 Résultat
-Exemple de sortie :     
+🟩 Exemple de sortie :     
 
  → [ALERT] Root activity detected       
  → [CRITICAL] Sensitive file access
