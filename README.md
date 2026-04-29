@@ -15,6 +15,15 @@
 - Simple IDS simulation
 - GitHub Actions CI integration
 
+## Usage
+
+Run the script:
+
+```bash
+python detector.py
+
+---
+
 ## 🔵 Description du projet
 
 Ce projet implémente un mini moteur de détection d’intrusion (IDS) capable d’analyser des logs système afin d’identifier des comportements suspects.
