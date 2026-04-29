@@ -209,6 +209,10 @@ Il constitue une base concrète et réaliste des outils et méthodes utilisés e
 
 ⚠️ Disclaimer
 
+Ce projet est réalisé à des fins pédagogiques uniquement.
+Toutes les activités sont simulées dans un environnement contrôlé.
+Toutes les données produites ont été anonymisées.
+
 This project is for educational purposes only.
 All outputs have been sanitized.
 
