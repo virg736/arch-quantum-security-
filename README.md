@@ -59,14 +59,14 @@ Attack Script → Log File → Detection Engine → Alert
 
 ---
 
-## Pipeline de détection
+## Pipeline de détection   
 
-### 🔺 1. Simulation d’attaque
+### 🔺 1. Simulation d’attaque   
 
-Un script génère un événement simulant une activité malveillante :
+Un script génère un événement simulant une activité malveillante :   
  → ATTACK|bash|940|0|/etc/passwd  
 
-📄 2. Stockage des logs      
+📄 2. Stockage des logs         
 
 Les événements sont enregistrés dans :  
 
