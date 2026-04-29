@@ -50,6 +50,15 @@ Attack Script → Log File → Detection Engine → Alert
 
 ---
 
+## ⚙️ Mise en place de l’environnement
+
+Préparation de l’environnement Arch Linux et vérification de la structure du projet :
+
+<p align="center">
+  <img src="environment_setup.png" width="700"/>
+</p>
+
+
 ## Pipeline de détection   
 
 ### 🔺 1. Simulation d’attaque   
