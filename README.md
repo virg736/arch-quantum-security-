@@ -34,6 +34,10 @@ Attack Script → Log File → Detection Engine → Alert
 
 ---
 
-### 1.  Simulation d’attaque
+
+## 1. Simulation d’attaque
 
 Un script génère un événement simulant une activité malveillante :
+
+
+ATTACK|bash|940|0|/etc/passwd
