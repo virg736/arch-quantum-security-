@@ -66,11 +66,27 @@ Attack Script → Log File → Detection Engine → Alert
 Un script génère un événement simulant une activité malveillante :   
  → ATTACK|bash|940|0|/etc/passwd  
 
+---
+
+### 🔷 2. Stockage des logs
+
+Les événements sont enregistrés dans :
+
+
 📄 2. Stockage des logs         
 
 Les événements sont enregistrés dans :  
 
  → logs/events.log   
+
+
+Ce fichier constitue la source principale pour l’analyse.
+
+---
+
+### 🔷 3. Moteur de détection
+
+Le script principal analyse les logs :
 
 Ce fichier constitue la source principale pour l’analyse.   
 
