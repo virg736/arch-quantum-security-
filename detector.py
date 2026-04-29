@@ -1,18 +1,33 @@
 import time
+import subprocess
 
-def monitor():
-    print("[+] eBPF IDS started")
-    
-    events = [
-        "execve detected",
-        "file access /etc/shadow",
-        "network connection suspicious",
-        "privilege escalation attempt"
-    ]
+def get_logs():
+    try:
+        logs = subprocess.check_output(
+            ["journalctl", "-n", "10", "--no-pager"],
+            text=True
+        )
+        return logs.split("\n")
+    except:
+        return ["no logs"]
 
-    for event in events:
-        print(f"[ALERT] {event}")
-        time.sleep(1)
+def analyze(logs):
+    alerts = []
+
+    for line in logs:
+        if "failed" in line.lower():
+            alerts.append("Brute force attempt")
+
+        if "sudo" in line.lower():
+            alerts.append("Privilege escalation")
+
+    return alerts
 
 if __name__ == "__main__":
-    monitor()
+    logs = get_logs()
+    alerts = analyze(logs)
+
+    for alert in alerts:
+        print(f"[ALERT] {alert}")
+
+    print("[+] Scan complete")
