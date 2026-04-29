@@ -203,7 +203,7 @@ Ce type de système est utilisé par :
 
 Ce projet démontre la mise en place d’un système de détection d’intrusion simplifié capable d’analyser des logs, d’identifier des comportements suspects et de générer des alertes.
 
-Il constitue une base concrète et réaliste des outils utilisés en cybersécurité.
+Il constitue une base concrète et réaliste des outils et méthodes utilisés en cybersécurité.
 
 ⸻
 
