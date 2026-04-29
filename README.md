@@ -21,13 +21,13 @@ L’objectif est de simuler une activité malveillante, générer des logs, puis
 
 | Dossier / Fichier | Description |
 |------------------|------------|
-| `ebpf/`          | Détection au niveau kernel |
-| `detection/`     | Moteur d’analyse |
+| `ebpf/`          | Détection au niveau du kernel |
+| `detection/`     | Moteur d’analyse des logs |
 | `attacks/`       | Simulation d’attaques |
 | `tests/`         | Validation du pipeline |
 | `logs/`          | Stockage des événements |
-| `run.sh`         | Exécution globale |
-| `README.md`      | Documentation |
+| `run.sh`         | Script d'exécution globale |
+| `README.md`      | Documentation du projet |
 
 
 ---
