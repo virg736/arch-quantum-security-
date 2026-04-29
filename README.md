@@ -19,7 +19,6 @@
 
 Run the script:
 
-```bash
 python detector.py
 
 ---
