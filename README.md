@@ -17,6 +17,33 @@ L’objectif est de simuler une activité malveillante, générer des logs, puis
 
 ---
 
+## 🎬 Scénario réel d’utilisation
+
+### 🏢 Contexte
+
+Dans un environnement professionnel, des serveurs Linux contiennent des fichiers sensibles tels que :
+- mots de passe (ex : /etc/shadow)
+- configurations système
+- données utilisateurs
+
+Un attaquant ou un programme malveillant peut tenter d’accéder à ces fichiers de manière non autorisée, parfois sans déclencher d’alerte immédiate.
+
+---
+
+### ⚠️ Problème
+
+Sans système de détection, ces activités peuvent passer inaperçues dans les logs système.
+
+### Solution apportée par ce projet
+
+Ce projet simule ce type de comportement et met en place un moteur de détection capable d’identifier :
+- les accès avec privilèges élevés (UID 0)
+- l’accès à des fichiers sensibles
+- les comportements suspects dans les logs
+
+---
+
+
 ## Structure du projet
 
 | Dossier / Fichier | Description |
