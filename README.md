@@ -17,7 +17,7 @@
 © 2026 Virginie Lechene 
 </p>
 
-
+[![CI](https://github.com/virg736/arch-quantum-security-/actions/workflows/ci.yml/badge.svg)](https://github.com/virg736/arch-quantum-security-/actions)
 
 ## 🔵 Description du projet
 
