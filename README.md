@@ -41,3 +41,11 @@ Un script génère un événement simulant une activité malveillante :
 
 
 ATTACK|bash|940|0|/etc/passwd
+
+📄 2. Stockage des logs
+
+Les événements sont enregistrés dans :
+
+logs/events.log
+
+Ce fichier constitue la source principale pour l’analyse.
