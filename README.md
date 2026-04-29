@@ -1,3 +1,11 @@
+![Linux](https://img.shields.io/badge/OS-Linux-black?logo=linux)
+![Arch Linux](https://img.shields.io/badge/Arch-Arch_Linux-blue?logo=arch-linux)
+![eBPF](https://img.shields.io/badge/eBPF-Runtime_Monitoring-red)
+![IDS](https://img.shields.io/badge/Security-IDS-critical)
+![Kernel](https://img.shields.io/badge/Layer-Kernel-orange)
+![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-darkred)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 <h1 align="center">Arch Linux Runtime Security (eBPF IDS)</h1>
 
 <p align="center">
