@@ -234,14 +234,12 @@ Ce type de système est utilisé par :
 
 ⸻
 
-## Usage   
+## 🟢 Usage   
 
 Run the script:   
-
-python detector.py   
+→ python detector.py   
 
 ## Example Output   
-
 [+] eBPF IDS started   
 [ALERT] Brute force attempt   
 [ALERT] Privilege escalation   
