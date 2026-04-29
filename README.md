@@ -127,7 +127,7 @@ Chaque ligne est transformée en objet structuré :
 
 Le moteur applique des règles simples mais efficaces :     
 
-* 🔴 UID = 0 → activité avec privilèges root      
+* 🔴 UID = 0 → activité avec des privilèges root      
 * 🔴 Accès au fichier sensible  /etc/passwd      
 
 ---
@@ -152,8 +152,8 @@ Dans ce projet, le terme “Quantum” ne fait pas référence à l’informatiq
 
 Il représente une approche multi-critères et multi-états de la détection :   
 
-* analyse simultanée de plusieurs attributs (processus, utilisateur, fichier)  
-* corrélation de différents indicateurs  
+* analyse simultanée de plusieurs attributs système (processus, utilisateur, fichier)  
+* corrélation de plusieurs indicateurs  
 * évaluation du niveau de risque selon plusieurs règles     
 
 Cette approche permet une détection plus intelligente et contextuelle.
