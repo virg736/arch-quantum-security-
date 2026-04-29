@@ -234,6 +234,21 @@ Ce type de système est utilisé par :
 
 ⸻
 
+## Usage
+
+Run the script:
+
+python detector.py
+
+## Example Output
+
+[+] eBPF IDS started
+[ALERT] Brute force attempt
+[ALERT] Privilege escalation
+[+] Scan complete
+
+--- 
+
 🔵 Conclusion
 
 Ce projet démontre la mise en place d’un système de détection d’intrusion simplifié capable d’analyser des logs, d’identifier des comportements suspects et de générer des alertes.
