@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <b>Runtime Intrusion Detection on Arch Linux</b>
+  <b>Runtime Intrusion Detection System on Arch Linux</b>
 </p>
 
 
@@ -13,7 +13,7 @@
 
 Ce projet implémente un mini moteur de détection d’intrusion (IDS) capable d’analyser des logs système afin d’identifier des comportements suspects.
 
-L’objectif est de simuler une activité malveillante, de générer des logs, puis de les analyser automatiquement afin de détecter des événements critiques.
+L’objectif est de simuler une activité malveillante, générer des logs, puis les analyser automatiquement afin de détecter des événements critiques.
 
 ---
 
