@@ -1,16 +1,3 @@
-<p align="center">
-  <h1>🛡️ arch-quantum-security</h1>
-  <h3>Runtime Intrusion Detection on Arch Linux</h3>
-</p>
-
-
-<p align="center">
-
-# 🛡️ arch-quantum-security
-
-**Runtime Intrusion Detection on Arch Linux**
-
-</p>
 
 ##  Description du projet
 
