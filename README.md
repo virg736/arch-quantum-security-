@@ -89,12 +89,6 @@ Le script principal analyse les logs :
 Ce fichier constitue la source principale pour l’analyse.      
  → python detection/engine.py logs/events.log       
 
-<p align="center">
-  <img src="detection_result.png" width="900"/>
-</p>
-```
-
-
 ---   
 
 ## Fonctionnement interne   
