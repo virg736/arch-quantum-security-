@@ -38,7 +38,7 @@ L’objectif est de simuler une activité malveillante, générer des logs, puis
 - Générer des logs exploitables
 - Analyser automatiquement les événements
 - Détecter des comportements suspects
-- Structurer les résultats en format JSON
+- Structurer les résultats au format JSON
 
 ---
 
@@ -66,7 +66,7 @@ Préparation de l’environnement Arch Linux et vérification de la structure du
 
 ### 🔺 1. Simulation d’attaque   
 
-Un script génère un événement simulant une activité malveillante :      
+Un script génère un événement simulant une activité malveillante, sous forme suivante :      
  → ATTACK|bash|940|0|/etc/passwd     
 
 <p align="center">
