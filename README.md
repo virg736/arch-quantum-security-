@@ -40,7 +40,6 @@ L’objectif est de simuler une activité malveillante, de générer des logs, p
 - Détecter des comportements suspects
 - Structurer les résultats en format JSON
 
-
 ---
 
 ## ⚙️ Architecture du projet
@@ -55,77 +54,77 @@ Attack Script → Log File → Detection Engine → Alert
 
 ### 🔺 1. Simulation d’attaque   
 
-Un script génère un événement simulant une activité malveillante :   
- → ATTACK|bash|940|0|/etc/passwd  
+Un script génère un événement simulant une activité malveillante :      
+ → ATTACK|bash|940|0|/etc/passwd     
+
+---   
+
+### 🔷 2. Stockage des logs   
+
+Les événements sont enregistrés dans :   
+ → logs/events.log      
+
+---   
+
+### 🔷 3. Moteur de détection   
+
+Le script principal analyse les logs :   
+
+Ce fichier constitue la source principale pour l’analyse.      
+ → python detection/engine.py logs/events.log       
+
+---   
+
+## Fonctionnement interne   
+
+### 🔷 Lecture des logs   
+
+Le moteur lit le fichier ligne par ligne :   
+⚙️ Fonctionnement interne      
+ → with open(sys.argv[1]) as f:        
+
+### 🔷 Filtrage    
+
+Seules les lignes contenant `"ATTACK|"` sont analysées :   
+ → if "ATTACK|" in line:      
+
+
+### 🔷 Parsing    
+
+Chaque ligne est transformée en objet structuré :   
+
+{   
+  "type": "ATTACK",   
+  "process": "bash",   
+  "pid": 940,  
+  "uid": 0,  
+  "file": "/etc/passwd",  
+  "timestamp": "..."   
+}   
 
 ---
 
-### 🔷 2. Stockage des logs
+ Détection      
 
-Les événements sont enregistrés dans :
+Le moteur applique des règles simples mais efficaces :     
+
+* 🔴 UID = 0 → activité avec privilèges root      
+* 🔴 Accès à /etc/passwd → fichier sensible      
+
+Exemple de sortie :     
+
+ → [ALERT] Root activity detected       
+ → [CRITICAL] Sensitive file access      
+
+Sauvegarde      
+
+Les événements sont enregistrés au format JSON dans :      
+
  → logs/events.log   
 
----
+🔵 Pourquoi “Quantum Security” ?      
 
-### 🔷 3. Moteur de détection
-
-Le script principal analyse les logs :
-
-Ce fichier constitue la source principale pour l’analyse.   
- → python detection/engine.py logs/events.log   
-
----
-
-## Fonctionnement interne
-
-### 🔷 Lecture des logs
-
-Le moteur lit le fichier ligne par ligne :
-⚙️ Fonctionnement interne   
- → with open(sys.argv[1]) as f:   
-
-### 🔷 Filtrage
-
-Seules les lignes contenant `"ATTACK|"` sont analysées :
- → if "ATTACK|" in line:   
-
-
-### 🔷 Parsing
-
-Chaque ligne est transformée en objet structuré :
-
-{
-  "type": "ATTACK",
-  "process": "bash",
-  "pid": 940,
-  "uid": 0,
-  "file": "/etc/passwd",
-  "timestamp": "..."
-}
-
----
-
- Détection   
-
-Le moteur applique des règles simples mais efficaces :   
-
-* 🔴 UID = 0 → activité avec privilèges root   
-* 🔴 Accès à /etc/passwd → fichier sensible   
-
-Exemple de sortie :  
-
- → [ALERT] Root activity detected    
- → [CRITICAL] Sensitive file access   
-
-Sauvegarde   
-
-Les événements sont enregistrés au format JSON dans :   
-
- → logs/events.log
-
-🔵 Pourquoi “Quantum Security” ?   
-
-Dans ce projet, le terme “Quantum” ne fait pas référence à l’informatique quantique.   
+Dans ce projet, le terme “Quantum” ne fait pas référence à l’informatique quantique.      
 
 Il représente une approche multi-critères et multi-états de la détection :   
 
