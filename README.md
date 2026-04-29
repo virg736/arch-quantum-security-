@@ -111,6 +111,9 @@ Le moteur applique des règles simples mais efficaces :
 * 🔴 UID = 0 → activité avec privilèges root      
 * 🔴 Accès à /etc/passwd → fichier sensible      
 
+---
+
+🟩 Résultat
 Exemple de sortie :     
 
  → [ALERT] Root activity detected       
@@ -139,7 +142,7 @@ Cette approche permet une détection plus intelligente et contextuelle.
 
 ⸻
 
-  → Concepts abordés
+🔵 Concepts abordés
 
 * Analyse de logs
 * Détection d’intrusion (IDS)
