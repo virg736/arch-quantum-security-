@@ -8,6 +8,7 @@
 </p>
 
 
+
 ## 🔵 Description du projet
 
 Ce projet implémente un mini moteur de détection d’intrusion (IDS) capable d’analyser des logs système afin d’identifier des comportements suspects.
@@ -59,81 +60,81 @@ Attack Script → Log File → Detection Engine → Alert
 ---
 
 
-## 1. Simulation d’attaque
+## 1. Simulation d’attaque  
 
-Un script génère un événement simulant une activité malveillante :
+Un script génère un événement simulant une activité malveillante :  
 
 
-ATTACK|bash|940|0|/etc/passwd
+ → ATTACK|bash|940|0|/etc/passwd  
 
-📄 2. Stockage des logs
+📄 2. Stockage des logs      
 
-Les événements sont enregistrés dans :
+Les événements sont enregistrés dans :  
 
-logs/events.log
+ → logs/events.log   
 
-Ce fichier constitue la source principale pour l’analyse.
+Ce fichier constitue la source principale pour l’analyse.   
 
-🔍 3. Moteur de détection
+🔍 3. Moteur de détection   
 
-Le script principal analyse les logs :
+Le script principal analyse les logs :   
 
-python detection/engine.py logs/events.log
+ → python detection/engine.py logs/events.log   
 
-⚙️ Fonctionnement interne
+⚙️ Fonctionnement interne   
 
-📥 Lecture des logs
+📥 Lecture des logs   
 
-Le moteur lit le fichier ligne par ligne :
+Le moteur lit le fichier ligne par ligne :   
 
-with open(sys.argv[1]) as f:
+ → with open(sys.argv[1]) as f:   
 
-🎯 Filtrage
+🎯 Filtrage  
 
-Seules les lignes contenant "ATTACK|" sont analysées :
+Seules les lignes contenant "ATTACK|" sont analysées :   
 
-if "ATTACK|" in line:
+ → if "ATTACK|" in line:   
 
-🧩 Parsing
+🧩 Parsing  
 
-Chaque ligne est transformée en objet structuré :
+Chaque ligne est transformée en objet structuré :   
 
-{
-  "type": "ATTACK",
-  "process": "bash",
-  "pid": 940,
-  "uid": 0,
-  "file": "/etc/passwd",
-  "timestamp": "..."
-}
+{  
+  "type": "ATTACK",  
+  "process": "bash",  
+  "pid": 940,  
+  "uid": 0,  
+  "file": "/etc/passwd",  
+  "timestamp": "..."  
+}  
 
-🚨 Détection
+🚨 Détection   
 
-Le moteur applique des règles simples mais efficaces :
+Le moteur applique des règles simples mais efficaces :   
 
-* 🔴 UID = 0 → activité avec privilèges root
-* 🔴 Accès à /etc/passwd → fichier sensible
+* 🔴 UID = 0 → activité avec privilèges root   
+* 🔴 Accès à /etc/passwd → fichier sensible   
 
-Exemple de sortie :
+Exemple de sortie :  
 
-[ALERT] Root activity detected
-[CRITICAL] Sensitive file access
+ → [ALERT] Root activity detected    
+ → [CRITICAL] Sensitive file access   
 
-💾 Sauvegarde
+💾 Sauvegarde   
 
-Les événements sont enregistrés au format JSON dans :
+Les événements sont enregistrés au format JSON dans :   
 
-logs/events.log
+ → logs/events.log
 
-🔵 Pourquoi “Quantum Security” ?
+🔵 Pourquoi “Quantum Security” ?   
 
-Dans ce projet, le terme “Quantum” ne fait pas référence à l’informatique quantique.
+Dans ce projet, le terme “Quantum” ne fait pas référence à l’informatique quantique.   
 
-Il représente une approche multi-critères et multi-états de la détection :
+Il représente une approche multi-critères et multi-états de la détection :   
 
-* analyse simultanée de plusieurs attributs (processus, utilisateur, fichier)
-* corrélation de différents indicateurs
-* évaluation du niveau de risque selon plusieurs règles
+* analyse simultanée de plusieurs attributs (processus, utilisateur, fichier)  
+* corrélation de différents indicateurs  
+* évaluation du niveau de risque selon plusieurs règles     
 
 Cette approche permet une détection plus intelligente et contextuelle.
 
