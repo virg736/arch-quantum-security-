@@ -15,11 +15,6 @@
 - Simple IDS simulation
 - GitHub Actions CI integration
 
-## Description
-This project implements a simple intrusion detection system (IDS) on Arch Linux using log analysis.
-
-
-
 ## 🔵 Description du projet
 
 Ce projet implémente un mini moteur de détection d’intrusion (IDS) capable d’analyser des logs système afin d’identifier des comportements suspects.
