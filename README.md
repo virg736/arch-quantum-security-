@@ -124,6 +124,13 @@ Chaque ligne est transformée en objet structuré :
   "timestamp": "..."   
 }   
 
+<p align="center">
+  <img src="detection_result.png" width="900"/>
+</p>
+```
+
+
+
 ---
 
  🟩 Détection      
