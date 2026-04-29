@@ -260,9 +260,9 @@ Le projet est conçu avec une architecture modulaire lui permettant d’évoluer
 
 ## 🔄 Roadmap
 
-Une évolution est prévue afin d’intégrer **eBPF (Extended Berkeley Packet Filter)** pour la collecte d’événements système en temps réel au niveau du kernel Linux.
+Une évolution est prévue avec l’intégration de **eBPF (Extended Berkeley Packet Filter)** pour la collecte d’événements système en temps réel au niveau du kernel Linux.
 
-Cette approche permettra de remplacer les logs simulés actuels par des événements réels (exécution de processus, accès fichiers, activités privilégiées), et d’évoluer vers un système de détection d’intrusion en runtime.
+Cette approche remplacera les logs simulés par des événements réels (exécution de processus, accès fichiers, activités privilégiées) et permettra d’évoluer vers un système de détection d’intrusion en runtime.
 
 
 ---
