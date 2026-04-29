@@ -66,7 +66,7 @@ Préparation de l’environnement Arch Linux et vérification de la structure du
 
 ### 🔺 1. Simulation d’attaque   
 
-Un script génère un événement simulant une activité malveillante, sous forme suivante :      
+Un script génère un événement simulant une activité malveillante, sous la forme suivante :      
  → ATTACK|bash|940|0|/etc/passwd     
 
 <p align="center">
@@ -86,8 +86,8 @@ Les événements sont enregistrés dans :
 
 Le script principal analyse les logs :   
 
-Ce fichier constitue la source principale pour l’analyse.      
- → python detection/engine.py logs/events.log       
+Ce fichier constitue la source principale pour l’analyse.            
+ → python detection/engine.py logs/events.log             
 
 ---   
 
@@ -95,9 +95,8 @@ Ce fichier constitue la source principale pour l’analyse.
 
 ### 🔷 Lecture des logs   
 
-Le moteur lit le fichier ligne par ligne :   
-⚙️ Fonctionnement interne      
- → with open(sys.argv[1]) as f:        
+Le moteur lit le fichier ligne par ligne :       
+ → with open(sys.argv[1]) as f:           
 
 ### 🔷 Filtrage    
 
