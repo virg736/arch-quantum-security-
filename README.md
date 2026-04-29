@@ -95,13 +95,6 @@ Le moteur lit le fichier ligne par ligne :
 ### 🔷 Filtrage
 
 Seules les lignes contenant `"ATTACK|"` sont analysées :
-
-
-
- Filtrage  
-
-Seules les lignes contenant "ATTACK|" sont analysées :   
-
  → if "ATTACK|" in line:   
 
 🧩 Parsing  
