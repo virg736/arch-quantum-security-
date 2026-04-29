@@ -94,7 +94,6 @@ Seules les lignes contenant `"ATTACK|"` sont analysées :
 
 Chaque ligne est transformée en objet structuré :
 
-```json
 {
   "type": "ATTACK",
   "process": "bash",
@@ -104,18 +103,7 @@ Chaque ligne est transformée en objet structuré :
   "timestamp": "..."
 }
 
-🧩 Parsing  
-
-Chaque ligne est transformée en objet structuré :   
-
-{  
-  "type": "ATTACK",  
-  "process": "bash",  
-  "pid": 940,  
-  "uid": 0,  
-  "file": "/etc/passwd",  
-  "timestamp": "..."  
-}  
+---
 
  Détection   
 
