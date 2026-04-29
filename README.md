@@ -207,7 +207,7 @@ Cette approche permet une détection plus intelligente et contextuelle.
 
 👥 Cas d’usage
 
-Ce type de système est utilisé par :
+Ce type de système est utilisé par :   
 
 * Analystes SOC (Security Operations Center)
 * Administrateurs système
@@ -234,18 +234,18 @@ Ce type de système est utilisé par :
 
 ⸻
 
-## Usage
+## Usage   
 
-Run the script:
+Run the script:   
 
-python detector.py
+python detector.py   
 
-## Example Output
+## Example Output   
 
-[+] eBPF IDS started
-[ALERT] Brute force attempt
-[ALERT] Privilege escalation
-[+] Scan complete
+[+] eBPF IDS started   
+[ALERT] Brute force attempt   
+[ALERT] Privilege escalation   
+[+] Scan complete   
 
 --- 
 
