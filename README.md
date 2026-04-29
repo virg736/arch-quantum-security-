@@ -70,6 +70,12 @@ Un script génère un événement simulant une activité malveillante :
  → ATTACK|bash|940|0|/etc/passwd     
 
 <p align="center">
+  <img src="attack_script_evade.png" width="800"/>
+</p>
+
+
+
+<p align="center">
   <img src="assets/images/attack_simulation_success.png" width="800"/>
 </p>
 
