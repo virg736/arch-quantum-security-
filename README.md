@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Security-IDS-critical">
   <img src="https://img.shields.io/badge/License-MIT-green">
 </p>
-![CI](https://github.com/virg736/arch-quantum-security-/actions/workflows/ci.yml/badge.svg)
+
 
 <h1 align="center">Arch Linux Runtime Security (eBPF IDS)</h1>
 
