@@ -5,6 +5,10 @@
   <a href="https://github.com/virg736/arch-quantum-security-/actions">
     <img src="https://github.com/virg736/arch-quantum-security-/actions/workflows/ci.yml/badge.svg" />
   </a>
+</p> 
+
+<p align="center">
+© 2026 Virginie Lechene 
 </p>
 
 ![cover](arch-quantum-security.jpg)
