@@ -7,11 +7,12 @@
   </a>
 </p> 
 
+
+![cover](arch-quantum-security.jpg)
+
 <p align="center">
 © 2026 Virginie Lechene 
 </p>
-
-![cover](arch-quantum-security.jpg)
 
 ## Features
 - Runtime log monitoring
