@@ -302,3 +302,11 @@ Toutes les données produites ont été anonymisées.
 - echo : écriture dans les logs
 - >> : ajout (append) dans un fichier
 - chmod +x : rendre un script exécutable
+
+--- 
+
+✍️ Auteur : *Virginie Lechene*
+
+
+
+
